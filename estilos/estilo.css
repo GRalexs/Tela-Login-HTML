@@ -32,12 +32,13 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    
 
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.486);
 
     transition: width 0.2s, height 0.2s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
 }
 
 section#login > div#imagem{
@@ -121,11 +122,11 @@ div.campo > input{
     background-color: #49a09d;
     font-size: 1em;
     width: calc(100% - 48px);
-    transform: translateY(-10px);
     height: 100%;
     border: 0px;
     border-radius: 8px;
     padding: 4px;
+    transform: translateY(-10px);
 }
 .campo > input:focus-within{
     background-color: white;
